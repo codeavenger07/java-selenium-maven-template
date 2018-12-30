@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="6436" started-at="2018-12-30T02:48:19Z" finished-at="2018-12-30T02:48:25Z">
+    <groups>
+      <group name="test">
+        <method signature="Assassinate.firstTest()[pri:0, instance:killer.Assassinate@124753a]" name="firstTest" class="killer.Assassinate"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="sampleTest" duration-ms="6436" started-at="2018-12-30T02:48:19Z" finished-at="2018-12-30T02:48:25Z">
+      <class name="killer.Assassinate">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:killer.Assassinate@124753a]" name="beforeMethod" is-config="true" duration-ms="4042" started-at="2018-12-29T21:48:19Z" finished-at="2018-12-29T21:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:killer.Assassinate@124753a]" name="firstTest" duration-ms="1558" started-at="2018-12-29T21:48:23Z" finished-at="2018-12-29T21:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:killer.Assassinate@124753a]" name="tearDown" is-config="true" duration-ms="821" started-at="2018-12-29T21:48:24Z" finished-at="2018-12-29T21:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- killer.Assassinate -->
+    </test> <!-- sampleTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
