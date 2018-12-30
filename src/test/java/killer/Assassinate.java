@@ -39,7 +39,7 @@ public class Assassinate {
 
 	@Test (groups = {"test"})
 	public void firstTest () {
-	    getDriver().get("file:///home/luke/Desktop/test.html");
+	    getDriver().get("src/test/resources/test.html");
 //	    getDriver().findElement(By.className("class12")).click();
 	    getDriver().findElement(By.id("twelve")).click();
 	}
