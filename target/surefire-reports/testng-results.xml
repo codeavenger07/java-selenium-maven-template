@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="6701" started-at="2019-01-02T01:26:30Z" finished-at="2019-01-02T01:26:37Z">
+  <suite name="Suite1" duration-ms="5524" started-at="2019-01-02T01:28:29Z" finished-at="2019-01-02T01:28:35Z">
     <groups>
       <group name="test">
-        <method signature="Assassinate.firstTest()[pri:0, instance:killer.Assassinate@124753a]" name="firstTest" class="killer.Assassinate"/>
+        <method signature="Assassinate.firstTest()[pri:0, instance:killer.Assassinate@1829d67]" name="firstTest" class="killer.Assassinate"/>
       </group> <!-- test -->
     </groups>
-    <test name="sampleTest" duration-ms="6701" started-at="2019-01-02T01:26:30Z" finished-at="2019-01-02T01:26:37Z">
+    <test name="sampleTest" duration-ms="5524" started-at="2019-01-02T01:28:29Z" finished-at="2019-01-02T01:28:35Z">
       <class name="killer.Assassinate">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:killer.Assassinate@124753a]" name="beforeMethod" is-config="true" duration-ms="4229" started-at="2019-01-01T20:26:30Z" finished-at="2019-01-01T20:26:34Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:killer.Assassinate@1829d67]" name="beforeMethod" is-config="true" duration-ms="3577" started-at="2019-01-01T20:28:29Z" finished-at="2019-01-01T20:28:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:killer.Assassinate@124753a]" name="firstTest" duration-ms="1644" started-at="2019-01-01T20:26:34Z" finished-at="2019-01-01T20:26:36Z">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:killer.Assassinate@1829d67]" name="firstTest" duration-ms="1241" started-at="2019-01-01T20:28:33Z" finished-at="2019-01-01T20:28:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:killer.Assassinate@124753a]" name="tearDown" is-config="true" duration-ms="815" started-at="2019-01-01T20:26:36Z" finished-at="2019-01-01T20:26:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:killer.Assassinate@1829d67]" name="tearDown" is-config="true" duration-ms="692" started-at="2019-01-01T20:28:34Z" finished-at="2019-01-01T20:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

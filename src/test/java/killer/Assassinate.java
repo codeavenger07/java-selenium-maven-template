@@ -27,6 +27,7 @@ public class Assassinate {
 	    System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver");
 	    fo.setAcceptInsecureCerts(true);
 //	    fo.setProfile(profile);
+	    fo.setHeadless(true);
 	    driver = new FirefoxDriver(fo);
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
