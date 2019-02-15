@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.io.TemporaryFilesystem;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -40,11 +41,21 @@ public class Assassinate {
 	    TemporaryFilesystem.getDefaultTmpFS().deleteTemporaryFiles();
 	}
 
-	@Test (groups = {"test"})
-	public void firstTest () {
-		String dir = System.getProperty("user.dir");
-	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
+	@Test (groups = {"testPass"})
+	public void testPass () {
+//		String dir = System.getProperty("user.dir");
+//	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
 //	    getDriver().findElement(By.className("class12")).click();
-	    getDriver().findElement(By.id("twelve")).click();
+//	    getDriver().findElement(By.id("twelve")).click();
+		Assert.assertEquals(true, true);
+	}
+	
+	@Test (groups = {"testFail"})
+	public void testFail () {
+//		String dir = System.getProperty("user.dir");
+//	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
+//	    getDriver().findElement(By.className("class12")).click();
+//	    getDriver().findElement(By.id("twelve")).click();
+		Assert.assertEquals(true, false);
 	}
 }
