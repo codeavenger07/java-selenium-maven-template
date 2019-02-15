@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.io.TemporaryFilesystem;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Assassinate {
@@ -19,6 +20,7 @@ public class Assassinate {
 	}
 
 	@BeforeMethod(alwaysRun = true)
+	@Parameters({"isHeadless"})
 	public void beforeMethod() throws Exception {
 //	    String customProfile = System.getProperty("customFirefoxProfile");
 //	    FirefoxProfile profile = new FirefoxProfile(new File(customProfile));

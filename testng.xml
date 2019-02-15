@@ -2,11 +2,7 @@
   
 <suite name="Suite1" verbose="1" >
   <test name="sampleTest">
-  	<groups>
-  		<run>
-  			<include name="test" />
-  		</run>
-  	</groups>
+	<parameter name="isHeadless" value="true"/>
     <classes>
       <class name="killer.Assassinate"/>
     </classes>
