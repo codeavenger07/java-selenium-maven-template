@@ -50,7 +50,7 @@ public class Assassinate {
 		Assert.assertEquals(true, true);
 	}
 	
-	@Test (groups = {"testFail", "tsetGroup"})
+	@Test (groups = {"testFail", "testGroup"})
 	public void testFail () {
 //		String dir = System.getProperty("user.dir");
 //	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
