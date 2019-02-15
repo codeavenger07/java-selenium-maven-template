@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
 <suite name="Suite1" verbose="1" >
-  <test name="sampleTest">
+  <test name="assassinate">
 	<parameter name="isHeadless" value="true"/>
     <classes>
       <class name="killer.Assassinate"/>

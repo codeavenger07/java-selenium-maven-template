@@ -41,7 +41,7 @@ public class Assassinate {
 	    TemporaryFilesystem.getDefaultTmpFS().deleteTemporaryFiles();
 	}
 
-	@Test (groups = {"testPass"})
+	@Test (groups = {"testPass", "testGroup"})
 	public void testPass () {
 //		String dir = System.getProperty("user.dir");
 //	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
@@ -50,7 +50,7 @@ public class Assassinate {
 		Assert.assertEquals(true, true);
 	}
 	
-	@Test (groups = {"testFail"})
+	@Test (groups = {"testFail", "tsetGroup"})
 	public void testFail () {
 //		String dir = System.getProperty("user.dir");
 //	    getDriver().get("file://" + dir + "/src/test/resources/test.html");
